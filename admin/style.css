@@ -1,0 +1,222 @@
+@import url('responsive.css');
+
+.ankers-lijn {background:url(../AnkerStuy/images/anker-repeat-stroke.jpg) repeat-x;height:10px;}
+
+.site-footer {
+    background-color: #05284E;
+}
+.site-footer {
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+}
+
+.foot {
+    background:#012040;
+    color:#fff;font-size:12px;
+    fontWebdings-empty-cells: hide;
+}
+.footer-sidebar h3 {
+    color:#fff;
+    font-size:20px;
+    font-weight:400;
+}
+.footer-sidebar ul li a {
+    color:#fff;
+    text-decoration:none;
+    font-size:12px;
+}
+.footer-sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.site-footer .margin {
+    margin-bottom:30px;
+    padding-top:62px;
+}
+
+p.copyright, p.rights {
+    margin:10px 0;text-decoration: none;
+    color:#fff
+}
+p.rights {
+    float:right;
+    margin-right:5px;
+}
+
+body {
+    background: #fff;
+    font: 14px/21px 'Open Sans', Arial, sans-serif;
+    color: #1d1d1d;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+    list-style-type: none;
+}
+@media {
+    .container.main {
+        margin-top: 5%;
+        text-align: left;
+        width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container.niam {
+        margin-top: 5%;
+        text-align: left;
+        width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container.mm {
+        top: 3%;
+        text-align: left;
+        width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-md-6 {
+        width: 550px;
+        margin: 0 auto;
+    }
+    .col-md-7 {
+        width: 732px;
+        margin: 0 auto;
+    }
+    /*Login and logout styling buttons*/
+    .login, .submit{
+        background: #389e3d;
+        color: #fff;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        float: right;
+        margin-right: 10;
+    }
+    .login:hover, .submit:hover {
+        background-color: white;
+        color: green;
+        -webkit-transition-duration: 0.25s;
+        -moz-transition-duration: 0.25s;
+        -ms-transition-duration: 0.25s;
+        -o-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+    }
+
+    .button_1 {
+        background: #389e3d;
+        color: #fff;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        float: left;
+        margin: 0px 0px 0px 10px;
+    }
+    .button_1:hover {
+        background-color: white;
+        color: green;
+        -webkit-transition-duration: 0.25s;
+        -moz-transition-duration: 0.25s;
+        -ms-transition-duration: 0.25s;
+        -o-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+    }
+    .return {
+        background: #389e3d;
+        color: #fff;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .return:hover {
+        background-color: white;
+        color: green;
+        -webkit-transition-duration: 0.25s;
+        -moz-transition-duration: 0.25s;
+        -ms-transition-duration: 0.25s;
+        -o-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+    }
+
+    .welkoms {
+        position: relative;
+        left: 28%;
+    }
+    .twelve {
+        float: right;
+        margin: auto;
+        margin-top: 30px
+    }
+    .logout {
+        background: #fff;
+        color: #05284E;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        float: right;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .logout:hover {
+        background-color: #05284E;
+        color: #fff;
+        -webkit-transition-duration: 0.25s;
+        -moz-transition-duration: 0.25s;
+        -ms-transition-duration: 0.25s;
+        -o-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+    }
+}
+
+p { margin: 0 0 20px 0; line-height: 26px;}
+
+
+#ankerstuy.logo {position:absolute;z-index:99;}
+
+
+.belangrijke-links ul li {font-size:14px;margin:12px 8px 5px;}
+
+.navigatie ul li {
+    font-family: 'Roboto', Arial, serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin:10px 20px;
+}
+
+#masthead.site-header {height:118px;}
+
+/* Basic CSS */
+
+ul, table{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+
+/* #Basic Styles
+================================================== */
+body {
+    background: #fff;
+    font: 14px/21px 'Open Sans', Arial, sans-serif;
+    color: #1d1d1d;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+/* #Typography
+================================================== */
+h3 {
+    font-family: 'Roboto', Arial, serif;
+}
+h3 { font-size: 22px; line-height: 34px; margin-bottom: 8px; }
